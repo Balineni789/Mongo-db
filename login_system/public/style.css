@@ -1,0 +1,123 @@
+
+@import url('https://fonts.google.com/css2?family=open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-image:url('/assets/hd.jpg');
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    opacity: 0.5;
+  }
+
+.center-div{
+    padding-top: 10%;
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+}
+
+form{
+    padding:0.3em;
+}
+
+#login.title>span{
+    font-size: .8em;
+}
+
+h3{
+ color: white;
+}
+
+h5{
+    color: orangered;
+}
+
+h5:hover{
+    background-color: lightskyblue;
+    color: #495057;
+    cursor: pointer;
+}
+
+a {
+    color:#d0c8ff;
+    font-size: 22px;
+}
+
+a:hover {
+    color:white;
+    background-color: black;
+}
+
+
+.pb-5, .py-5 {
+    padding-bottom: 1rem !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 2rem !important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 1rem !important;
+}
+.w-25 {
+    width: 25% !important;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+
+.container, .container-sm {
+    max-width: 540px;
+}
+
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.text-center {
+    text-align: center !important;
+}
+
+h2{
+    color: white;
+}
+
+span{
+    color:blue;
+    font-size: 20px;
+}
